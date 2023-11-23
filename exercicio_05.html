@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 5</title>
+</head>
+<body>
+    <h1></h1>
+    <label for="nome">nome</label>
+    <input type="text" id="name" placeholder="digite seu nome">
+    <button id="but" onclick="msg()">macete</button>
+    <p id="mensg"></p>
+    <script>
+        var paragrafo = document.getElementById('mensg')
+    function msg(){
+        var nome = document.getElementById("name").value
+         paragrafo.innerHTML = "bom dia  " + nome +"   va da bundinha"
+    
+    }
+   
+    </script>
+</body>
+</html>
